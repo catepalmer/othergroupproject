@@ -1,0 +1,7 @@
+{
+  "name": "celeb-quiz",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/rebecca-leete/celeb-quiz.git",
+  "license": "MIT"
+}
