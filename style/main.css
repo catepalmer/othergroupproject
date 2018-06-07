@@ -1,3 +1,5 @@
+/*BASIC ELEMENTS*/
+
 body {
   background-image: url("http://www.kompasbommelerwaard.nl/wp-content/uploads/2013/08/20130815_achtergrond-regenboog_EVU5.jpg");
 }
@@ -6,14 +8,21 @@ body {
   opacity: 50%;
 }
 
-h1 {
-  font-size: 50px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+#body {
+  background-color: #ffffff;
+  background: rgb(250, 250, 250, 0.5);
 }
+
+/*HEADER*/
 
 #header {
   background-color: #003300;
   color: #ffffff;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .two.columns {
@@ -22,6 +31,7 @@ h1 {
   padding-left: 20px;
 }
 
+/*FOOTER*/
 
 #footer {
   position: fixed;
