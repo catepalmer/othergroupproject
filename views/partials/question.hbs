@@ -1,0 +1,12 @@
+ <form class="question">
+          <h4>{{Question}}</h4>
+          <div>
+            {{#each Question}}
+            <input type="radio" id="Answer1"
+             name="contact" value="{{name}}">
+            <label for="contactChoice1">{{Answer}}</label>
+          {{/each }}
+        
+            <button type="submit">Submit</button>
+          </div>
+        </form>
