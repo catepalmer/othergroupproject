@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="../style/skeleton.css">
     <link rel="stylesheet" href="../style/normalize.css">
     <link rel="stylesheet" href="../style/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet">
   </head>
   <body>
    <div class="container" id="pagecontent">
@@ -18,7 +19,18 @@
       </div>
      </div>
      <div class="row" id="body">
-       {{{body}}}
+      <h3></h3>
+      <form class="question">
+          <h4>{{Question}}</h4>
+          <div>
+            {{#each Answer}}
+            <label for="contactChoice1"><input type="radio" 
+              name="contact" value="{{name}}">{{Answer}}</label>
+          {{/each }}
+        
+            <button type="submit">Submit</button>
+          </div>
+        </form>
      </div>
      <div class="row" id="footer">
       <p>
