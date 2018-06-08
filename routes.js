@@ -32,7 +32,7 @@ router.get('/profile', (req, res) => {
   //get profiles from profiles.json
   fileFun.readJSON('./profiles.json', obj => {
     //winner = profile from the highest score
-    let winner = getWinner(obj, winnerName)
+    let winner = getWinner(obj)
     res.render('profile', winner)    
   })
 })
@@ -42,7 +42,8 @@ router.post('/home', (req, res) => {
 })
 
 router.post('/quiz', (req, res) => {
-  let answer = req.body.value.toLowerCase()
+  let answer = req.body.name.toLowerCase()
+  //console.log(answer)
   // add answer to score
   addScore(answer)
   //if all questions answered
