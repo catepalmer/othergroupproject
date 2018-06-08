@@ -33,7 +33,7 @@ router.get('/profile', (req, res) => {
   fileFun.readJSON('./profiles.json', obj => {
     //winner = profile from the highest score
     let winner = getWinner(obj, winnerName)
-    res.render('profile', winner)
+    res.render('profile', winner)    
   })
 })
 

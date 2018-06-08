@@ -1,5 +1,5 @@
 [
-    {"Questions": "What food best describes who you are?", //1
+    {"Questions": "What food best describes who you are?",
     "Answers": [
         {"Answer": "Roast lamb", "name": "Brad"},
         {"Answer": "Avocado on toast", "name": "Rebecca"},
@@ -7,7 +7,7 @@
         {"Answer": "Chicken wings", "name": "Ross"},
         {"Answer": "Mulch", "name": "Cate"}
     ]},
-    {"Questions": "What is your spirit animal?", //2
+    {"Questions": "What is your spirit animal?",
     "Answers": [
         {"Answer": "Raccoon", "name": "Brad"},
         {"Answer": "Butterfly", "name": "Rebecca"},
@@ -15,7 +15,7 @@
         {"Answer": "Wolf", "name": "Ross"},
         {"Answer": "Octopus", "name": "Cate"}
     ]},
-    {"Questions": "What are you most scared of?", //3
+    {"Questions": "What are you most scared of?",
     "Answers": [
         {"Answer": "Girls", "name": "Brad"},
         {"Answer": "Ghosts", "name": "Rebecca"},
@@ -23,7 +23,7 @@
         {"Answer": "Fear", "name": "Ross"},
         {"Answer": "Death", "name": "Cate"}
     ]},
-    {"Questions": "Which is the meme you like the most?", //4
+    {"Questions": "Which is the meme you like the most?",
     "Answers": [
         {"Answer": "Wow (Owen Wilson)", "name": "Brad"},
         {"Answer": "Illuminati Confirmed", "name": "Rebecca"},
@@ -31,7 +31,7 @@
         {"Answer": "More Cowbell", "name": "Ross"},
         {"Answer": "Memes suck.", "name": "Cate"}
     ]},
-    {"Questions": "If you were a tree, what tree would you be?", //5
+    {"Questions": "If you were a tree, what tree would you be?",
     "Answers": [
         {"Answer": "Apple tree", "name": "Brad"},
         {"Answer": "Christmas tree", "name": "Rebecca"},
@@ -39,7 +39,7 @@
         {"Answer": "Plum tree", "name": "Ross"},
         {"Answer": "Baobab", "name": "Cate"}
     ]},
-    {"Questions": "What movie character are you?", //6
+    {"Questions": "What movie character are you?",
     "Answers": [
         {"Answer": "Legolas", "name": "Brad"},
         {"Answer": "Elsa but ruthless", "name": "Rebecca"},
@@ -47,7 +47,7 @@
         {"Answer": "Forrest Gump", "name": "Ross"},
         {"Answer": "Mia Wallace", "name": "Cate"}
     ]},
-    {"Questions": "Which of these do you love?", //7
+    {"Questions": "Which of these do you love?",
     "Answers": [
         {"Answer": "Beer", "name": "Brad"},
         {"Answer": "Myself", "name": "Rebecca"},
@@ -55,7 +55,7 @@
         {"Answer": "Hamburgers", "name": "Ross"},
         {"Answer": "Karaoke", "name": "Cate"}
     ]},
-    {"Questions": "If you were a cheese, what cheese would you be?", //8
+    {"Questions": "If you were a cheese, what cheese would you be?",
     "Answers": [
         {"Answer": "Cow", "name": "Brad"},
         {"Answer": "Haloumi", "name": "Rebecca"},
@@ -63,11 +63,12 @@
         {"Answer": "Paremesan", "name": "Ross"},
         {"Answer": "Ugh, cheese is gross!", "name": "Cate"}
     ]},
-    {"Questions": "What colour is your aura?", //9
+    {"Questions": "What colour is your aura?",
     "Answers": [
         {"Answer": "British Racing Green", "name": "Brad"},
         {"Answer": "Orange", "name": "Rebecca"},
         {"Answer": "Beaver Brown", "name": "Anton"},
         {"Answer": "Blue", "name": "Ross"},
         {"Answer": "Purple", "name": "Cate"}
-    ]},
+    ]}
+]
