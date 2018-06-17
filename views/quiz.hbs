@@ -1,11 +1,14 @@
 <form class="question" method="post" action="/quiz">
-  <h4><strong>{{Questions}}</strong></h4>
+  <h4><strong>{{question}}</strong></h4>
   <div>
-    {{#each Answers}}
+    {{#each answers}}
     <label for="contactChoice1"><input type="radio" 
-      name="name" value="{{name}}">{{Answer}}</label>
+      name="name" value="{{name}}">{{answer}}</label>
     {{/each }}
         
-    <button id="submitBtn" class="greyed" disabled type="submit">SUBMIT</button>
+    <button id="submitBtn" class="greyed" disabled onclick="active()" type="submit">SUBMIT</button>
   </div>
 </form>
+<script>
+    
+</script>
