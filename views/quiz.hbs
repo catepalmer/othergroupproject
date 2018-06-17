@@ -1,11 +1,11 @@
 <form class="question" method="post" action="/quiz">
-  <h4>{{Questions}}</h4>
+  <h4><strong>{{Questions}}</strong></h4>
   <div>
     {{#each Answers}}
     <label for="contactChoice1"><input type="radio" 
       name="name" value="{{name}}">{{Answer}}</label>
     {{/each }}
         
-    <button type="submit">Submit</button>
+    <button id="submitBtn" class="greyed" disabled type="submit">SUBMIT</button>
   </div>
 </form>
